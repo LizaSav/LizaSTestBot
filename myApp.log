@@ -3777,3 +3777,4 @@ Caused by: java.net.SocketException: Connection reset
 	... 18 common frames omitted
 2022-01-02 15:51:10,382 INFO [WelcomeHUB_bot Telegram Executor] HubBot [HubBot.java:228] {"date":"2022-01-02T15:51:10.375555700","first_name":"Liza","last_name":null,"user_id":"375106512","message":"F","bot_answer":"Привет, Liza\nЯ тебя не понимаю"}
 2022-01-02 15:51:13,315 INFO [WelcomeHUB_bot Telegram Executor] HubBot [HubBot.java:228] {"date":"2022-01-02T15:51:13.315925","first_name":"Liza","last_name":null,"user_id":"375106512","message":"2","bot_answer":"Тебе уже пришло на почту руководство новичка и инфо по продуктам/командам ХАБа?"}
+2022-01-02 16:16:49,360 INFO [WelcomeHUB_bot Telegram Executor] HubBot [HubBot.java:228] {"date":"2022-01-02T16:16:49.358094400","first_name":"Liza","last_name":null,"user_id":"375106512","message":"6","bot_answer":"#отлично\n\nТебе уже показали наш офис?"}
