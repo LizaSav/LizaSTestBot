@@ -1,11 +1,11 @@
-import lombok.Data;
+//import lombok.Data;
 
-import java.util.List;
+//import java.util.List;
 
-@Data
+//@Data
 public class ScriptRow {
-    private Integer id;
-    private String content;
-    private String buttonText;
-    private List<Integer> optionIds;
+//    private Integer id;
+//    private String content;
+//    private String buttonText;
+//    private List<Integer> optionIds;
 }
