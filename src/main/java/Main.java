@@ -6,17 +6,17 @@ import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 import java.io.IOException;
 import java.security.GeneralSecurityException;
 
-public class HelloWorld {
+public class Main {
     @SneakyThrows
     public static void main(String[] args) throws TelegramApiException {
-        BotScript botScript = SheetsQuickstart.getScriptFromGoogleTables();
+        //      BotScript botScript = SheetsQuickstart.getScriptFromGoogleTables();
 
         TelegramBotsApi telegramBotsApi = new TelegramBotsApi(DefaultBotSession.class);
         // Register our bot
         try {
             telegramBotsApi.registerBot(
-                    new HubBot(botScript)
-            //                                   new EchoBot()
+     //               new HubBot(botScript)
+                                               new EchoBot()
             );
         } catch (TelegramApiException e) {
             e.printStackTrace();
