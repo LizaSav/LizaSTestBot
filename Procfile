@@ -1,1 +1,1 @@
-worker: sh target/bin/lizastestbot
+worker: java $JAVA_OPTS -cp target/classes:target/dependency/* Main
